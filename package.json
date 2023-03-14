@@ -15,7 +15,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "set HOST=ec2-54-86-133-146.compute-1.amazonaws.com&& set PORT=4300 && react-scripts start",
+    "start": "set HOST=ec2-54-86-133-146.compute-1.amazonaws.com&& set PORT=3000 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -1,6 +1,6 @@
 const http = require('http');
 
-const hostname = 'localhost';
+const hostname = 'ec2-54-86-133-146.compute-1.amazonaws.com';
 const port = 3000;
 
 const server = http.createServer((req, res) => {
