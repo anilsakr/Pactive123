@@ -1,0 +1,42 @@
+.mains{
+    display: flex;
+    height:100%;
+}
+.sb{
+    width: 5%;
+    background-color: #0c0c0c;
+    color: white;
+    padding: 5px;
+}
+.mb{
+    width: -webkit-fill-available;
+    background-color: #646464;
+    color: white;
+    padding: 0px 13px;
+    height: 100%;
+}
+.logos{
+    height:30px;
+    width: 30px;
+    border: none;
+    float:right;
+  }
+.styles{
+    margin-bottom: auto;
+}
+.wrapper{
+    align-items: center;
+    display: flex;
+    width:30px;
+    align-items: left;
+    flex-direction: column;
+    flex:3;
+}
+
+.sidebar_icons{
+    margin-bottom: 13px;
+    height:60px;
+    width: 60px;
+    border: none;
+    
+}

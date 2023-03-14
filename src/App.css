@@ -1,0 +1,142 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+
+}
+#root {
+  height: 100vh;
+}
+.sidebar{
+  width: 5%;
+  background-color: #0c0c0c;
+  color: white;
+  padding: 5px;
+  
+}
+.container{
+  display: flex;
+  height: 100%;
+}
+.maincontent{
+  width: -webkit-fill-available;
+  background-color: #646464;
+  color: white;
+  padding: 0px 13px;
+  height: 100%;
+}
+.topbar{
+  display: flex;
+  flex-direction: column;
+  height: 10%;
+  
+}
+.datas{
+  display: flex;
+  flex-direction: row;
+  height: 5%;
+}
+.r1{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width:50%;
+}
+.r2{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width:50%;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.topbaricons{
+  background-color: #7a7a7a;
+  height: 100%;
+  margin-bottom: 8px;
+  padding: 13px;
+}
+.topbarcards{
+  display: flex;
+  height: 80%;
+  padding: 0px;
+}
+.topbarcards1{
+  width: 33%;
+  background-color: #474750;
+  
+  margin-right: 10px;
+  padding: 5px;
+}
+.topbarcards2{
+  width: 33%;
+  background-color: #29292d;
+  
+  margin-right: 10px;
+  padding: 5px;
+}
+.topbarcards3{
+  width: 33%;
+  background-color: #646464;;
+  
+  margin-right: 10px;
+  padding: 5px;
+}
+.App {
+  text-align: center;
+  background-color: rgb(15, 15, 15);
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #e3e6eb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+h3{
+  text-align: center;
+  color: white;
+}
+h1{
+  color: rgb(128, 174, 248);
+  text-align: center;
+}
+h3{
+  color: white;
+  font-size: x-large;
+}
+p4{
+  color: white;
+  float: right;
+  font-size: large;
+}
+h10{
+  color: white;
+  text-align: end;
+ }
