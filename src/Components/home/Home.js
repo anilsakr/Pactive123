@@ -13,8 +13,8 @@ export default function Home() {
     const [data, setData] = useState(null);
   async function fetchData() {
   const [response1,response2] = await Promise.all([
-    await axios.get('http://localhost:4200/getControlTowerSummary'),
-    await axios.get('http://localhost:4200/getActivityInsights')
+    await axios.get('http://ec2-54-86-133-146.compute-1.amazonaws.com:4200/getControlTowerSummary'),
+    await axios.get('http://ec2-54-86-133-146.compute-1.amazonaws.com:4200/getActivityInsights')
   ]);
   console.log(response1.data);
   setData(response1.data);
