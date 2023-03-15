@@ -1,0 +1,35 @@
+pipeline {
+    agent any
+    
+    tools {nodejs "NodeJS"}
+    
+    environment {
+        // Set the HEARTBEAT_CHECK_INTERVAL environment variable to 86400
+        HEARTBEAT_CHECK_INTERVAL = '86400'
+    }    
+    stages {
+        stage('Build') {
+            steps {
+                git branch: 'main', url: 'https://github.com/SushreeSangita12/Pactive123.git'
+                sh 'npm install'
+                sh 'chmod +x node_modules/.bin/react-scripts'
+                sh 'npm run start'
+                // sh 'npm run build'
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//pipeline script for jenkins job 
