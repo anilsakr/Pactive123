@@ -19,6 +19,7 @@ steps:
     npm update
     npm install jest-worker
     npm install
+    sh 'chmod +x node_modules/.bin/react-scripts'
     npm run build
   displayName: 'npm install and build'
 
